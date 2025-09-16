@@ -1,1 +1,33 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+  /* border: 1px solid black; */
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__menu-item {
+  list-style: circle;
+}
+
+.header__menu-item:first-child {
+  list-style: none;
+}
+
+.header__menu-item-active .header__menu-link{
+  text-decoration: none;
+}
+
+/* .header__menu-link */
+
+.header__logo {
+  display: block;
+  width: 136px;
+  /* height: 105px; */
+}
