@@ -3,31 +3,49 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 90px 50px 94px;
   /* border: 1px solid black; */
+  font-size: 18px;
+  /* background-color: brown; */
 }
 
-.header__menu-list {
-  display: flex;
-  gap: 32px;
+.link {
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
-.header__menu-item {
-  list-style: circle;
-}
-
-.header__menu-item:first-child {
-  list-style: none;
-}
-
-.header__menu-item-active .header__menu-link{
+.link-active {
   text-decoration: none;
 }
 
-/* .header__menu-link */
+.menu-list {
+  display: flex;
+  gap: 33px;
+}
+
+.header__menu-list {
+  list-style: circle;
+}
+
+.header__menu-list li:first-child {
+  list-style: none;
+}
 
 .header__logo {
   display: block;
   width: 136px;
   /* height: 105px; */
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: flex-end;
+  font-style: normal;
+}
+
+.header__contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  line-height: 24.3px;
 }
