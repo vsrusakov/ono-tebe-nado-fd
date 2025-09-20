@@ -3,7 +3,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 92px;
+  height: 293px;
+  padding: 0 50px 5px;
   /* border: 1px solid black; */
   font-size: 18px;
   /* background-color: brown; */
@@ -24,8 +25,8 @@
 .header__menu-list {
   display: flex;
   gap: 33px;
-  position: relative;
-  bottom: 3px;
+  /* position: relative;
+  bottom: 3px; */
   list-style: circle;
 }
 
@@ -35,12 +36,8 @@
 
 .header__logo {
   display: block;
-  width: 148px;
-  /* height: 105px; */
-}
-
-.header__logo-image {
-  height: 105px;
+  width: 136px;
+  height: 104px;
 }
 
 .address {
@@ -52,8 +49,8 @@
 }
 
 .header__address {
-  position: relative;
-  bottom: 3px;
+  /* position: relative;
+  bottom: 3px; */
   max-width: 240px;
   justify-self: flex-end;
 }
@@ -213,8 +210,8 @@
 
 .about {
   display: grid;
-  grid-template: min-content 1fr / 334px 1fr;
-  gap: 8px 25px;
+  grid-template: 248px 1fr / 334px 1fr;
+  column-gap: 25px;
   padding: 92px 24px 180px;
 }
 
