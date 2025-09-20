@@ -1,21 +1,16 @@
-/* место для вашего кода */
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   height: 293px;
   padding: 0 50px 5px;
-  /* border: 1px solid black; */
   font-size: 18px;
-  /* background-color: brown; */
 }
 
 .link {
-  /* text-decoration: underline; */
   text-underline-offset: 4px;
   text-decoration: underline solid 1px;
   text-decoration-skip-ink: none;
-  /* text-decoration-thickness: 1px; */
 }
 
 .link-active {
@@ -25,8 +20,6 @@
 .header__menu-list {
   display: flex;
   gap: 33px;
-  /* position: relative;
-  bottom: 3px; */
   list-style: circle;
 }
 
@@ -45,12 +38,10 @@
   flex-direction: column;
   align-items: flex-start;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 135%;
 }
 
 .header__address {
-  /* position: relative;
-  bottom: 3px; */
   max-width: 240px;
   justify-self: flex-end;
 }
@@ -79,10 +70,8 @@
 .cover__title {
   font-weight: bold;
   font-size: 100px;
-  /* text-transform: uppercase; */
   letter-spacing: 30px;
   line-height: 115%;
-  /* color: #fff; */
 }
 
 .aligned-text {
@@ -116,8 +105,8 @@
 }
 
 .cover__description-text {
-  line-height: 28px;
-  word-spacing: 18px;
+  line-height: 127%;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -145,14 +134,12 @@
   gap: 25px;
   flex-wrap: wrap;
   list-style: none;
-  /* background-color: aquamarine; */
 }
 
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
   flex-grow: 1;
-  /* border: 1px solid black; */
 }
 
 .card-link {
@@ -193,9 +180,6 @@
   font-weight: bold;
   line-height: 120%;
   text-underline-offset: 3px;
-  /* text-decoration: underline; */
-  /* text-underline-offset: 4px; */
-  /* text-decoration-thickness: 1px; */
 }
 
 .card__text {
@@ -227,7 +211,6 @@
 }
 
 .about__logo-image {
-  /* display: block; */
   width: 148px;
   height: 114px;
 }
@@ -243,7 +226,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  line-height: 24px;
+  line-height: 120%;
   grid-row: 2;
   grid-column: 2;
 }
